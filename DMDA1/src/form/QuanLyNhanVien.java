@@ -11,13 +11,13 @@ import java.awt.CardLayout;
  *
  * @author Admin
  */
-public class QuanLyTaiKhoan extends javax.swing.JInternalFrame {
+public class QuanLyNhanVien extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form QuanLyTaiKhoan2
      */
     CardLayout cardlayout;
-    public QuanLyTaiKhoan() {
+    public QuanLyNhanVien() {
         initComponents();
         cardlayout = (CardLayout) jPanel1.getLayout();
     }
@@ -293,7 +293,7 @@ public class QuanLyTaiKhoan extends javax.swing.JInternalFrame {
                                 .addComponent(txtSDT, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(6, 6, 6)
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
                             .addComponent(txtEmail))
                         .addGap(15, 15, 15)
                         .addComponent(jLabel7)
@@ -377,7 +377,7 @@ public class QuanLyTaiKhoan extends javax.swing.JInternalFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 0, Short.MAX_VALUE)
             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 

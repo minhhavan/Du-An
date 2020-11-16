@@ -65,7 +65,6 @@ public class QuanLyLuong extends javax.swing.JInternalFrame {
         jLabel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         btnCapNhat1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnCapNhat1.setForeground(new java.awt.Color(59, 175, 218));
         btnCapNhat1.setText("Chấm công");
         btnCapNhat1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +73,6 @@ public class QuanLyLuong extends javax.swing.JInternalFrame {
         });
 
         btnDanhSachNhanVien.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnDanhSachNhanVien.setForeground(new java.awt.Color(59, 175, 218));
         btnDanhSachNhanVien.setText("Xem lương chi tiết");
         btnDanhSachNhanVien.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,15 +112,12 @@ public class QuanLyLuong extends javax.swing.JInternalFrame {
         txtTimKiem.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
         btnTimKiem.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnTimKiem.setForeground(new java.awt.Color(59, 175, 218));
         btnTimKiem.setText("Import");
 
         btnImport.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnImport.setForeground(new java.awt.Color(59, 175, 218));
         btnImport.setText("Tìm kiếm");
 
         btnCapNhat.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnCapNhat.setForeground(new java.awt.Color(59, 175, 218));
         btnCapNhat.setText("Cập nhật");
 
         tblLuong.setModel(new javax.swing.table.DefaultTableModel(
@@ -181,7 +176,6 @@ public class QuanLyLuong extends javax.swing.JInternalFrame {
         txtTimKiem1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 
         btnTimKiem1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        btnTimKiem1.setForeground(new java.awt.Color(59, 175, 218));
         btnTimKiem1.setText("Tìm kiếm");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -243,7 +237,7 @@ public class QuanLyLuong extends javax.swing.JInternalFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 687, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 690, Short.MAX_VALUE)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 

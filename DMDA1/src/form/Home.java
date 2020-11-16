@@ -5,7 +5,9 @@
  */
 package form;
 
+import entity.LoaiSanPham;
 import java.awt.CardLayout;
+import javax.swing.JComponent;
 import javax.swing.UIManager;
 
 /**
@@ -34,15 +36,15 @@ public class Home extends javax.swing.JFrame {
 
         desktop = new javax.swing.JDesktopPane();
         jPanel1 = new javax.swing.JPanel();
-        btnOder = new javax.swing.JButton();
+        btnOrder = new javax.swing.JButton();
         btnHome = new javax.swing.JButton();
         btnSanPham = new javax.swing.JButton();
         btnNhanVien = new javax.swing.JButton();
-        btnDoiMatKhau = new javax.swing.JButton();
+        btnLoaiSanPham = new javax.swing.JButton();
+        btnLuong = new javax.swing.JButton();
         btnHoaDon = new javax.swing.JButton();
-        btnHoaDon1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        btnDoiMatKhau = new javax.swing.JButton();
+        btnThongKe = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
@@ -74,18 +76,19 @@ public class Home extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(59, 175, 218));
         jPanel1.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 0, 2, new java.awt.Color(255, 255, 255)));
 
-        btnOder.setBackground(new java.awt.Color(59, 175, 218));
-        btnOder.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnOder.setForeground(new java.awt.Color(255, 255, 255));
-        btnOder.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\order.png")); // NOI18N
-        btnOder.setText("Order");
-        btnOder.setFocusPainted(false);
-        btnOder.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnOder.setPreferredSize(new java.awt.Dimension(87, 33));
-        btnOder.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnOder.addActionListener(new java.awt.event.ActionListener() {
+        btnOrder.setBackground(new java.awt.Color(59, 175, 218));
+        btnOrder.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnOrder.setForeground(new java.awt.Color(255, 255, 255));
+        btnOrder.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\order.png")); // NOI18N
+        btnOrder.setText("Order");
+        btnOrder.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
+        btnOrder.setFocusPainted(false);
+        btnOrder.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnOrder.setPreferredSize(new java.awt.Dimension(87, 33));
+        btnOrder.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnOrder.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnOderActionPerformed(evt);
+                btnOrderActionPerformed(evt);
             }
         });
 
@@ -94,6 +97,7 @@ public class Home extends javax.swing.JFrame {
         btnHome.setForeground(new java.awt.Color(255, 255, 255));
         btnHome.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\home.png")); // NOI18N
         btnHome.setText("Home");
+        btnHome.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnHome.setFocusPainted(false);
         btnHome.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnHome.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -108,6 +112,7 @@ public class Home extends javax.swing.JFrame {
         btnSanPham.setForeground(new java.awt.Color(255, 255, 255));
         btnSanPham.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\product.png")); // NOI18N
         btnSanPham.setText("Sản phẩm");
+        btnSanPham.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnSanPham.setFocusPainted(false);
         btnSanPham.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnSanPham.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -122,6 +127,7 @@ public class Home extends javax.swing.JFrame {
         btnNhanVien.setForeground(new java.awt.Color(255, 255, 255));
         btnNhanVien.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\employee.png")); // NOI18N
         btnNhanVien.setText("Nhân viên");
+        btnNhanVien.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnNhanVien.setFocusPainted(false);
         btnNhanVien.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnNhanVien.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -131,17 +137,43 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        btnDoiMatKhau.setBackground(new java.awt.Color(59, 175, 218));
-        btnDoiMatKhau.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnDoiMatKhau.setForeground(new java.awt.Color(255, 255, 255));
-        btnDoiMatKhau.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\changepass.png")); // NOI18N
-        btnDoiMatKhau.setText("Đổi mật khẩu");
-        btnDoiMatKhau.setFocusPainted(false);
-        btnDoiMatKhau.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnDoiMatKhau.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnDoiMatKhau.addActionListener(new java.awt.event.ActionListener() {
+        btnLoaiSanPham.setBackground(new java.awt.Color(59, 175, 218));
+        btnLoaiSanPham.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnLoaiSanPham.setForeground(new java.awt.Color(255, 255, 255));
+        btnLoaiSanPham.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\type.png")); // NOI18N
+        btnLoaiSanPham.setText("Loại sản phẩm");
+        btnLoaiSanPham.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
+        btnLoaiSanPham.setFocusPainted(false);
+        btnLoaiSanPham.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnLoaiSanPham.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnLoaiSanPham.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnDoiMatKhauActionPerformed(evt);
+                btnLoaiSanPhamActionPerformed(evt);
+            }
+        });
+
+        btnLuong.setBackground(new java.awt.Color(59, 175, 218));
+        btnLuong.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnLuong.setForeground(new java.awt.Color(255, 255, 255));
+        btnLuong.setIcon(new javax.swing.JLabel() {
+            public javax.swing.Icon getIcon() {
+                try {
+                    return new javax.swing.ImageIcon(
+                        new java.net.URL("file:/D:/DA1/SanPham/Du-An/DMDA1/Image/salary.png")
+                    );
+                } catch (java.net.MalformedURLException e) {
+                }
+                return null;
+            }
+        }.getIcon());
+        btnLuong.setText("Lương");
+        btnLuong.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
+        btnLuong.setFocusPainted(false);
+        btnLuong.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnLuong.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnLuong.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLuongActionPerformed(evt);
             }
         });
 
@@ -149,7 +181,8 @@ public class Home extends javax.swing.JFrame {
         btnHoaDon.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnHoaDon.setForeground(new java.awt.Color(255, 255, 255));
         btnHoaDon.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\receipt.png")); // NOI18N
-        btnHoaDon.setText("Lương");
+        btnHoaDon.setText("Hoá đơn");
+        btnHoaDon.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnHoaDon.setFocusPainted(false);
         btnHoaDon.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnHoaDon.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -159,79 +192,74 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        btnHoaDon1.setBackground(new java.awt.Color(59, 175, 218));
-        btnHoaDon1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        btnHoaDon1.setForeground(new java.awt.Color(255, 255, 255));
-        btnHoaDon1.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\receipt.png")); // NOI18N
-        btnHoaDon1.setText("Hoá đơn");
-        btnHoaDon1.setFocusPainted(false);
-        btnHoaDon1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        btnHoaDon1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        btnHoaDon1.addActionListener(new java.awt.event.ActionListener() {
+        btnDoiMatKhau.setBackground(new java.awt.Color(59, 175, 218));
+        btnDoiMatKhau.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnDoiMatKhau.setForeground(new java.awt.Color(255, 255, 255));
+        btnDoiMatKhau.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\changepass.png")); // NOI18N
+        btnDoiMatKhau.setText("Đổi mật khẩu");
+        btnDoiMatKhau.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
+        btnDoiMatKhau.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnDoiMatKhau.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnDoiMatKhau.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnHoaDon1ActionPerformed(evt);
+                btnDoiMatKhauActionPerformed(evt);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(59, 175, 218));
-        jButton2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\total.png")); // NOI18N
-        jButton2.setText("Thống kê");
-        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnThongKe.setBackground(new java.awt.Color(59, 175, 218));
+        btnThongKe.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        btnThongKe.setForeground(new java.awt.Color(255, 255, 255));
+        btnThongKe.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\total.png")); // NOI18N
+        btnThongKe.setText("Thống kê");
+        btnThongKe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnThongKe.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnThongKe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnThongKeActionPerformed(evt);
             }
         });
-
-        jButton4.setBackground(new java.awt.Color(59, 175, 218));
-        jButton4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Loại Sản phẩm");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(btnSanPham, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+            .addComponent(btnLuong, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+            .addComponent(btnLoaiSanPham, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
             .addComponent(btnHoaDon, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
-            .addComponent(btnDoiMatKhau, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
-            .addComponent(btnHoaDon1, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
-            .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnDoiMatKhau, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnHome, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
-                    .addComponent(btnOder, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
+                    .addComponent(btnOrder, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE)
                     .addComponent(btnNhanVien, javax.swing.GroupLayout.DEFAULT_SIZE, 175, Short.MAX_VALUE))
                 .addGap(0, 0, Short.MAX_VALUE))
-            .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnThongKe, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(btnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(btnOder, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnOrder, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(btnNhanVien, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
                 .addComponent(btnSanPham, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
+                .addComponent(btnLuong, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
                 .addComponent(btnHoaDon, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(btnHoaDon1, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnLoaiSanPham, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(btnDoiMatKhau, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnDoiMatKhau)
                 .addGap(0, 0, 0)
-                .addComponent(jButton2)
-                .addGap(0, 0, 0)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnThongKe, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0))
         );
 
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnDoiMatKhau, btnHoaDon, btnSanPham});
+        jPanel1Layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {btnLoaiSanPham, btnLuong, btnSanPham});
 
         jPanel2.setLayout(new java.awt.CardLayout());
 
@@ -365,18 +393,18 @@ public class Home extends javax.swing.JFrame {
         tblDatHang.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         tblDatHang.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"abc", "12", "11"},
-                {"abc", "11", "11"},
-                {"abc", "11", "11"},
-                {"abc", "11", "11"},
-                {"acb", "11", null}
+                {"Bánh mỳ pate", "1", "20.000đ"},
+                {"Coca-cola", "1", "15.000đ"},
+                {"Sandwich", "1", "15.000đ"},
+                {"Hamberger", "1", "25.000đ"},
+                {"Pizza", "1", "30.000đ"}
             },
             new String [] {
                 "Tên", "Số lượng", "Giá"
             }
         ));
         tblDatHang.setRequestFocusEnabled(false);
-        tblDatHang.setRowHeight(30);
+        tblDatHang.setRowHeight(35);
         jScrollPane1.setViewportView(tblDatHang);
         if (tblDatHang.getColumnModel().getColumnCount() > 0) {
             tblDatHang.getColumnModel().getColumn(1).setMinWidth(80);
@@ -402,7 +430,7 @@ public class Home extends javax.swing.JFrame {
 
         lbTongTien.setFont(new java.awt.Font("Tahoma", 0, 16)); // NOI18N
         lbTongTien.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        lbTongTien.setText("100.000đ");
+        lbTongTien.setText("85.000đ");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -520,12 +548,11 @@ public class Home extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnOderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOderActionPerformed
+    private void btnOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrderActionPerformed
         a.show(jPanel2, "card3");
-    }//GEN-LAST:event_btnOderActionPerformed
+    }//GEN-LAST:event_btnOrderActionPerformed
 
     private void btnHomeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHomeActionPerformed
-
         a.show(jPanel2, "card2");
     }//GEN-LAST:event_btnHomeActionPerformed
 
@@ -534,49 +561,41 @@ public class Home extends javax.swing.JFrame {
     }//GEN-LAST:event_cbxLoaiSanPham2ActionPerformed
 
     private void btnThanhToanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThanhToanActionPerformed
-        ThanhToan tt = new ThanhToan();
-        desktop.add(tt);
-        tt.setVisible(true);
+        showForm(new ThanhToan());
     }//GEN-LAST:event_btnThanhToanActionPerformed
 
     private void btnNhanVienActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNhanVienActionPerformed
-        QuanLyNhanVien tk = new QuanLyNhanVien();
-        desktop.add(tk);
-        tk.setVisible(true);
+        showForm(new QuanLyNhanVien());
     }//GEN-LAST:event_btnNhanVienActionPerformed
 
     private void btnSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSanPhamActionPerformed
-        QuanLySanPham sp = new QuanLySanPham();
-        desktop.add(sp);
-        sp.setVisible(true);
+        showForm(new QuanLySanPham());
     }//GEN-LAST:event_btnSanPhamActionPerformed
 
+    private void btnLuongActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLuongActionPerformed
+        showForm(new QuanLyLuong());
+    }//GEN-LAST:event_btnLuongActionPerformed
+
     private void btnHoaDonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoaDonActionPerformed
-        QuanLyLuong luong = new QuanLyLuong();
-        desktop.add(luong);
-        luong.setVisible(true);
+        showForm(new QuanLyHoaDon());
     }//GEN-LAST:event_btnHoaDonActionPerformed
 
-    private void btnHoaDon1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHoaDon1ActionPerformed
-        QuanLyHoaDon hd = new QuanLyHoaDon();
-        desktop.add(hd);
-        hd.setVisible(true);
-    }//GEN-LAST:event_btnHoaDon1ActionPerformed
-
-    private void btnDoiMatKhauActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDoiMatKhauActionPerformed
-        DoiMatKhau dmk = new DoiMatKhau();
-        desktop.add(dmk);
-        dmk.setVisible(true);
-    }//GEN-LAST:event_btnDoiMatKhauActionPerformed
+    private void btnLoaiSanPhamActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoaiSanPhamActionPerformed
+        showForm(new QuanLyLoai());
+    }//GEN-LAST:event_btnLoaiSanPhamActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         this.dispose();
         new login().setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void btnDoiMatKhauActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDoiMatKhauActionPerformed
+        showForm(new DoiMatKhau());
+    }//GEN-LAST:event_btnDoiMatKhauActionPerformed
+
+    private void btnThongKeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnThongKeActionPerformed
+        showForm(new ThongKe());
+    }//GEN-LAST:event_btnThongKeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -597,18 +616,18 @@ public class Home extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnDoiMatKhau;
     private javax.swing.JButton btnHoaDon;
-    private javax.swing.JButton btnHoaDon1;
     private javax.swing.JButton btnHome;
+    private javax.swing.JButton btnLoaiSanPham;
+    private javax.swing.JButton btnLuong;
     private javax.swing.JButton btnNhanVien;
-    private javax.swing.JButton btnOder;
+    private javax.swing.JButton btnOrder;
     private javax.swing.JButton btnSanPham;
     private javax.swing.JButton btnThanhToan;
+    private javax.swing.JButton btnThongKe;
     private javax.swing.JComboBox<String> cbxLoaiSanPham2;
     public static javax.swing.JDesktopPane desktop;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel6;
@@ -628,4 +647,9 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JTable tblDatHang;
     private javax.swing.JTextField txtTimKiem;
     // End of variables declaration//GEN-END:variables
+
+    private void showForm(JComponent form) {
+        desktop.add(form);
+        form.setVisible(true);
+    }
 }

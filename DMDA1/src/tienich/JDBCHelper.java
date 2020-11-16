@@ -48,8 +48,7 @@ public class JDBCHelper {
     }
     
     public static ResultSet queryResult(String sql, Object...x) throws SQLException {
-        ResultSet result = getPreparedStatement(sql, x).executeQuery();
-        return result;
+        return getPreparedStatement(sql, x).executeQuery();
     }
     
     public static int update(String sql, Object...x) throws SQLException {
