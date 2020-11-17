@@ -19,6 +19,7 @@ public class login extends javax.swing.JFrame {
     public login() {
         initComponents();
         setLocationRelativeTo(null);
+        new Chao(null, true).setVisible(true);
     }
 
     /**
@@ -199,11 +200,11 @@ public class login extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-       try {
-            UIManager.setLookAndFeel("com.formdev.flatlaf.FlatLightLaf");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//       try {
+//            UIManager.setLookAndFeel("com.formdev.flatlaf.FlatLightLaf");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
 //        }
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
