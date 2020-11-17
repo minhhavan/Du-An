@@ -32,7 +32,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="desktop" alignment="0" pref="747" max="32767" attributes="0"/>
+          <Component id="desktop" alignment="0" pref="737" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -53,7 +53,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel2" pref="1073" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -61,13 +61,10 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
                       <Component id="jPanel2" max="32767" attributes="0"/>
+                      <Component id="jPanel1" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -123,10 +120,9 @@
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="btnLoaiSanPham" linkSize="1" min="-2" pref="84" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="btnDoiMatKhau" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnDoiMatKhau" min="-2" pref="73" max="-2" attributes="0"/>
                       <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                       <Component id="btnThongKe" min="-2" pref="76" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -144,7 +140,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\order.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\order.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Order"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -177,7 +173,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\home.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\home.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Home"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -207,7 +203,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\product.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\product.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="S&#x1ea3;n ph&#x1ea9;m"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -237,7 +233,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\employee.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\employee.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Nh&#xe2;n vi&#xea;n"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -267,7 +263,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\type.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\type.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Lo&#x1ea1;i s&#x1ea3;n ph&#x1ea9;m"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -297,7 +293,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="1" name="file:/D:/DA1/SanPham/Du-An/DMDA1/Image/salary.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\salary.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="L&#x1b0;&#x1a1;ng"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -327,7 +323,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\receipt.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\receipt.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Ho&#xe1; &#x111;&#x1a1;n"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -357,7 +353,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\changepass.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\changepass.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -386,7 +382,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\DA1\SanPham\Du-An\DMDA1\Image\total.png"/>
+                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\total.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Th&#x1ed1;ng k&#xea;"/>
                 <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -431,11 +427,6 @@
               </Layout>
               <SubComponents>
                 <Component class="javax.swing.JLabel" name="jLabel1">
-                  <Properties>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="2" name="C:\Users\suong\Downloads\menu-banh-mi-breadhub.jpg"/>
-                    </Property>
-                  </Properties>
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton3">
                   <Properties>
