@@ -49,21 +49,13 @@ public class login extends javax.swing.JFrame {
 
         blIMG.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         blIMG.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
- 
-        blIMG.setIcon(new javax.swing.ImageIcon("F:\\Du_An_1\\Du-An\\DMDA1\\Image\\menu.jpg")); // NOI18N
- 
-        blIMG.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\menu.jpg")); // NOI18N
- 
+        blIMG.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/menu.jpg"))); // NOI18N
 
         jPanel2.setBackground(new java.awt.Color(59, 175, 218));
 
         lbIMGNV.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         lbIMGNV.setForeground(new java.awt.Color(255, 255, 255));
         lbIMGNV.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
- 
- 
-        lbIMGNV.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\chef.png")); // NOI18N
- 
         lbIMGNV.setPreferredSize(new java.awt.Dimension(50, 50));
 
         jLabel5.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N

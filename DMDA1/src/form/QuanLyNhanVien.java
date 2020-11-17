@@ -76,7 +76,6 @@ public class QuanLyNhanVien extends javax.swing.JInternalFrame {
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
-        setResizable(true);
         setPreferredSize(new java.awt.Dimension(1090, 510));
 
         jPanel2.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 0, 2, new java.awt.Color(0, 0, 255)));

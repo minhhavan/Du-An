@@ -18,10 +18,10 @@ import java.sql.SQLException;
 public class JDBCHelper {
     
     private static Connection con;
-    private static final String USER = "";
-    private static final String PASSWORD = "";
+    private static final String USER = "sa";
+    private static final String PASSWORD = "123";
     private static final String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    private static final String CONNECTION = "jdbc:sqlserver://localhost:1433;databasename=";
+    private static final String CONNECTION = "jdbc:sqlserver://localhost:1433;databasename=MMFastFood";
     
     public static void openConnect() throws SQLException, ClassNotFoundException{
         Class.forName(DRIVER);
