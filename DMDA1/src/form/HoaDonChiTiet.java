@@ -98,7 +98,7 @@ public class HoaDonChiTiet extends javax.swing.JInternalFrame {
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Hóa Đơn Bán Hàng");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\pay.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\pay.png")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -162,7 +162,7 @@ public class HoaDonChiTiet extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel8)
                     .addComponent(lbTong))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel1, lbKhachHang, lbMaHoaDon, lbNgayIn, lbThuNgan});
