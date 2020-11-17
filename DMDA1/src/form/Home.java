@@ -155,7 +155,11 @@ public class Home extends javax.swing.JFrame {
         btnLuong.setBackground(new java.awt.Color(59, 175, 218));
         btnLuong.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnLuong.setForeground(new java.awt.Color(255, 255, 255));
+
         btnLuong.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\salary.png")); // NOI18N
+
+        btnLuong.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\salary.png")); // NOI18N
+
         btnLuong.setText("Lương");
         btnLuong.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnLuong.setFocusPainted(false);
@@ -347,7 +351,7 @@ public class Home extends javax.swing.JFrame {
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel13Layout.createSequentialGroup()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 574, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 661, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
