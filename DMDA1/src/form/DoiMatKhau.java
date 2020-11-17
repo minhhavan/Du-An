@@ -16,6 +16,7 @@ public class DoiMatKhau extends javax.swing.JInternalFrame {
      */
     public DoiMatKhau() {
         initComponents();
+        setLocation(200, 50);
     }
 
     /**
