@@ -53,7 +53,6 @@ public class ThongKe extends javax.swing.JInternalFrame {
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
-        setResizable(true);
         setTitle("Thống kê");
 
         cbxDoanhThu.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
