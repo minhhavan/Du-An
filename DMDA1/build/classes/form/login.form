@@ -73,13 +73,6 @@
               <Font name="Tahoma" size="36" style="1"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-<<<<<<< HEAD
-              <Image iconType="2" name="F:\Du_An_1\Du-An\DMDA1\Image\menu.jpg"/>
-=======
-              <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\menu.jpg"/>
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
-            </Property>
           </Properties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel2">
@@ -153,12 +146,6 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-<<<<<<< HEAD
-=======
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\ASUS\Desktop\DA\Du-An\DMDA1\Image\chef.png"/>
-                </Property>
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
                 <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                   <Dimension value="[50, 50]"/>
                 </Property>

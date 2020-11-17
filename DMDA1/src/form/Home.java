@@ -79,11 +79,7 @@ public class Home extends javax.swing.JFrame {
         btnOrder.setBackground(new java.awt.Color(59, 175, 218));
         btnOrder.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnOrder.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnOrder.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/order.png"))); // NOI18N
-=======
-        btnOrder.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\order.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnOrder.setText("Order");
         btnOrder.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnOrder.setFocusPainted(false);
@@ -99,11 +95,7 @@ public class Home extends javax.swing.JFrame {
         btnHome.setBackground(new java.awt.Color(59, 175, 218));
         btnHome.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnHome.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/home.png"))); // NOI18N
-=======
-        btnHome.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\home.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnHome.setText("Home");
         btnHome.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnHome.setFocusPainted(false);
@@ -118,11 +110,7 @@ public class Home extends javax.swing.JFrame {
         btnSanPham.setBackground(new java.awt.Color(59, 175, 218));
         btnSanPham.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnSanPham.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnSanPham.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/product.png"))); // NOI18N
-=======
-        btnSanPham.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\product.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnSanPham.setText("Sản phẩm");
         btnSanPham.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnSanPham.setFocusPainted(false);
@@ -137,11 +125,7 @@ public class Home extends javax.swing.JFrame {
         btnNhanVien.setBackground(new java.awt.Color(59, 175, 218));
         btnNhanVien.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnNhanVien.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnNhanVien.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/employee.png"))); // NOI18N
-=======
-        btnNhanVien.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\employee.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnNhanVien.setText("Nhân viên");
         btnNhanVien.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnNhanVien.setFocusPainted(false);
@@ -156,11 +140,7 @@ public class Home extends javax.swing.JFrame {
         btnLoaiSanPham.setBackground(new java.awt.Color(59, 175, 218));
         btnLoaiSanPham.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnLoaiSanPham.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnLoaiSanPham.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/type.png"))); // NOI18N
-=======
-        btnLoaiSanPham.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\type.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnLoaiSanPham.setText("Loại sản phẩm");
         btnLoaiSanPham.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnLoaiSanPham.setFocusPainted(false);
@@ -175,15 +155,7 @@ public class Home extends javax.swing.JFrame {
         btnLuong.setBackground(new java.awt.Color(59, 175, 218));
         btnLuong.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnLuong.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnLuong.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/salary.png"))); // NOI18N
-=======
-
-        btnLuong.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\salary.png")); // NOI18N
-
-        btnLuong.setIcon(new javax.swing.ImageIcon("D:\\DA1\\SanPham\\Du-An\\DMDA1\\Image\\salary.png")); // NOI18N
-
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnLuong.setText("Lương");
         btnLuong.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnLuong.setFocusPainted(false);
@@ -198,11 +170,7 @@ public class Home extends javax.swing.JFrame {
         btnHoaDon.setBackground(new java.awt.Color(59, 175, 218));
         btnHoaDon.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnHoaDon.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnHoaDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/receipt.png"))); // NOI18N
-=======
-        btnHoaDon.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\receipt.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnHoaDon.setText("Hoá đơn");
         btnHoaDon.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnHoaDon.setFocusPainted(false);
@@ -217,11 +185,7 @@ public class Home extends javax.swing.JFrame {
         btnDoiMatKhau.setBackground(new java.awt.Color(59, 175, 218));
         btnDoiMatKhau.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnDoiMatKhau.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnDoiMatKhau.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/changepass.png"))); // NOI18N
-=======
-        btnDoiMatKhau.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\changepass.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnDoiMatKhau.setText("Đổi mật khẩu");
         btnDoiMatKhau.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(255, 255, 255)));
         btnDoiMatKhau.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -235,11 +199,7 @@ public class Home extends javax.swing.JFrame {
         btnThongKe.setBackground(new java.awt.Color(59, 175, 218));
         btnThongKe.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         btnThongKe.setForeground(new java.awt.Color(255, 255, 255));
-<<<<<<< HEAD
         btnThongKe.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Image/total.png"))); // NOI18N
-=======
-        btnThongKe.setIcon(new javax.swing.ImageIcon("C:\\Users\\ASUS\\Desktop\\DA\\Du-An\\DMDA1\\Image\\total.png")); // NOI18N
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
         btnThongKe.setText("Thống kê");
         btnThongKe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnThongKe.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -283,11 +243,7 @@ public class Home extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addComponent(btnLoaiSanPham, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-<<<<<<< HEAD
                 .addComponent(btnDoiMatKhau, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-=======
-                .addComponent(btnDoiMatKhau, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
->>>>>>> 5b49b499e9b36cda7efea4979f64bd8cf4372d16
                 .addGap(0, 0, 0)
                 .addComponent(btnThongKe, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -310,17 +266,19 @@ public class Home extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1073, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 707, Short.MAX_VALUE)
-                .addGap(0, 0, 0)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 682, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24))
         );
 
         jPanel2.add(jPanel3, "card2");
@@ -630,11 +588,11 @@ public class Home extends javax.swing.JFrame {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-//        try {
-//            UIManager.setLookAndFeel("com.formdev.flatlaf.FlatLightLaf");
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+       try {
+          UIManager.setLookAndFeel("com.formdev.flatlaf.FlatLightLaf");
+       } catch (Exception e) {
+           e.printStackTrace();
+       }
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Home().setVisible(true);
